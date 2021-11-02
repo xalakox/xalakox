@@ -4,6 +4,17 @@
 
 I am a software engineer and have been around the software industry for a while now, currently living with my wife and my daugther at Frisco, TX and working full time as a ReactJS / NodeJS developer for TourConnect.
 
-Have worked with almost all under the sun since the 90s, Full Stack web dev over the past 20+ years; constantly looking to challenge myself using emerging technologies, walking the walk is more valuable than talking the talk.
+Have worked with a wide range of software stacks since the 90s, Full Stack web dev over the past 20+ years; constantly looking to challenge myself using emerging technologies, walking the walk is more valuable than talking the talk.
 
-Industries I have worked with: Tourism, Social Media / Data Mining, and Retail / E-Commerce.
+Industries I have worked with: Tourism, Social Media / Data Mining and Retail / E-Commerce.
+
+Latest (kinda-old) blog posts:
+- [NodeJS in Docker debugging with VSCode](https://salvador.aceves.mx/nodejs-debug-docker-vscode/) apr 2019
+- [Nuevos Caminos para el Content Marketing](https://salvador.aceves.mx/nuevos-caminos-para-el-content-marketing/) nov 2016
+- [Métricas de Contenido y Metas](https://salvador.aceves.mx/metricas-de-contenido-y-metas/) nov 2016
+- [Cultural Advertising and Affinity Segmentation](https://salvador.aceves.mx/cultural-advertising-and-affinity-segmentation/) feb 2015
+- [Contenido que genera contenido](https://salvador.aceves.mx/contenido-que-genera-contenido/) feb 2015
+
+## pics from the past
+
+![old sal's pic](https://salvador.aceves.mx/static/5fc04a019c5cdaccd2a936c9a29ec6cc/1c72d/teen-sal.jpg)
