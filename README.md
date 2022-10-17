@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm Salvador
 
-[![wakatime](https://wakatime.com/badge/user/7b655bb4-43bf-4172-af0a-1f7bdfd2c285.svg)](https://wakatime.com/@7b655bb4-43bf-4172-af0a-1f7bdfd2c285) ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCHh1XFiGFxLWFbQhYtivPQQ?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/SalvadorAceves?style=social) <a href="https://www.instagram.com/xalakox/" target="blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" height="20"/></a>
+[![wakatime](https://wakatime.com/badge/user/7b655bb4-43bf-4172-af0a-1f7bdfd2c285.svg)](https://wakatime.com/@7b655bb4-43bf-4172-af0a-1f7bdfd2c285) ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCHh1XFiGFxLWFbQhYtivPQQ?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/SalvadorAceves?style=social) <a href="https://www.instagram.com/xalakox/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" height="20"/></a>
 
 
 
