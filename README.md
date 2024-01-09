@@ -7,3 +7,9 @@ I am a software engineer and have been working for the software industry for a w
 Have worked with a wide range of software stacks since the 90s, Full Stack web dev over the past 20+ years; constantly looking to challenge myself using emerging technologies, walking the walk is more valuable than talking the talk.
 
 Industries I have worked with: Tourism, Social Media / Data Mining and Retail / E-Commerce.
+
+Tech tools I usually roam with:
+ * 🕶️ [Rokid AR glasses](https://global.rokid.com/products/rokid-max) 
+ * ⌨️ [Red Dragon 75% low profile keyboard](https://www.amazon.com/Redragon-K652-Mechanical-Ultra-Thin-Supported/dp/B0BYJWV36Y)
+
+You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
