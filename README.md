@@ -9,7 +9,6 @@ Industries I have worked with: Tourism / AI / Social Media / Data Mining and Ret
 
 Tech tools I usually roam with:
  * 🕶️ [Rokid AR glasses](https://global.rokid.com/products/rokid-max) 
- * ⌨️ [Red Dragon 75% low profile keyboard](https://www.amazon.com/Redragon-K652-Mechanical-Ultra-Thin-Supported/dp/B0BYJWV36Y)
- * 🖱️ [Logitech M705 Mouse](https://www.amazon.com/Logitech-M705-Wireless-Marathon-Mouse/dp/B003TG75EG)
+ * ⌨️ [Thinkpad bluetooth keyboard]
 
 You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
