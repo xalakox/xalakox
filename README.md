@@ -7,8 +7,4 @@ I am a software engineer and have been working for the software industry for a w
 
 Industries I have worked with: Tourism / AI / Social Media / Data Mining and Retail / E-Commerce.
 
-Tech tools I usually roam with:
- * 🕶️ [Rokid AR glasses](https://global.rokid.com/products/rokid-max) 
- * ⌨️ [Thinkpad bluetooth keyboard]
-
 You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
