@@ -31,6 +31,10 @@ More about the company: [About TourConnect AI](https://www.tourconnect.ai/about-
 
 ### TI2 (Tourism Information Interchange)
 
+<a href="https://github.com/ti2travel">
+  <img src="assets/company/ti2travel-avatar.jpg" alt="TI2 organization avatar" width="86" />
+</a>
+
 [TI2](https://github.com/TourConnect/ti2) is an open source integration framework built for the tourism industry to standardize how systems exchange **bookings**, **content**, and **rates**.
 
 Why TI2 is relevant for the industry:
