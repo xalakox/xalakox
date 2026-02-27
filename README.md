@@ -9,6 +9,30 @@ Industries I have worked with: Tourism / AI / Social Media / Data Mining and Ret
 
 You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
 
+## Professional Life
+
+<table>
+  <tr>
+    <td width="220" valign="top">
+      <a href="https://www.tourconnect.ai/">
+        <img src="assets/company/tourconnect-ai-logo.webp" alt="TourConnect AI logo" width="200" />
+      </a>
+    </td>
+    <td valign="top">
+      I am a software engineer focused on building production AI software for travel operations.<br/><br/>
+      At <a href="https://www.tourconnect.ai/"><strong>TourConnect AI</strong></a>, I currently work on AI copilots for itineraries and bookings, helping travel teams automate busywork and deliver customization at scale.
+    </td>
+  </tr>
+</table>
+
+TourConnect AI is focused on AI software for DMCs and Tour Operators, including:
+
+- [Itinerary Assist AI](https://www.tourconnect.ai/itinerary-assist) for itinerary quoting workflows.
+- [Booking Automation AI](https://www.tourconnect.ai/booking-automation) for faster inbox-to-booking processing.
+- [Closeouts Automation](https://www.tourconnect.ai/closeouts-automation) for closeout and stopsell workflows.
+
+More about the company: [About TourConnect AI](https://www.tourconnect.ai/about-tour-connect-ai) and [Resources](https://www.tourconnect.ai/resources).
+
 ## Personal Apps
 
 ### Visa Logger
