@@ -13,18 +13,25 @@ You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadora
 
 ### Visa Logger
 
-Visa Logger is a Flutter app I built to manage visa limits and travel history while living nomadic, with a private offline-first architecture.
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <img src="assets/apps/visa-logger-icon.png" alt="Visa Logger app icon" width="82" />
+    </td>
+    <td valign="top">
+      <strong>Private visa planning assistant built with Flutter.</strong><br/>
+      Tracks country limits, visit timelines, and remaining allowance while keeping data local and encrypted.
+      <br/><br/>
+      <a href="https://appdistribution.firebase.dev/i/fe9cbaa36337b1a2">
+        <img src="https://img.shields.io/badge/Install-Firebase%20App%20Distribution-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Install Visa Logger via Firebase App Distribution" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-- Country profiles with configurable visa rules: max days per visit, rolling-window allowance, and period replenish logic.
-- Visit logging with entry/exit dates, planned trips, and inclusive day counting aligned to visa rules.
-- Multiple visit views for monitoring and planning.
-- Default country travel log view.
-- Calendar view for timeline planning.
-- Day-by-day rolling breakdown view to validate allowance per date.
-- Smart trip states (`planned`, `active`, `completed`) with remaining-day indicators and limit warnings.
-- Encrypted local storage for sensitive travel data.
-- Local backup/restore to a user-selected folder with timestamped ZIP snapshots.
-- Automatic backup retention (daily + weekly pruning strategy) for long-term reliability.
-- Install invite (Firebase App Distribution): [Get Visa Logger](https://appdistribution.firebase.dev/i/fe9cbaa36337b1a2)
-
-<img src="assets/apps/visa-logger-icon.png" alt="Visa Logger app icon" width="80" />
+- **Visa rules engine:** Configure max days per visit, rolling-window allowance, and period-replenish behavior per country.
+- **Visit tracking:** Log entry/exit dates, planned trips, and inclusive day counting aligned with visa compliance.
+- **Views:** Default travel log, calendar timeline, and day-by-day rolling breakdown validation.
+- **Trip intelligence:** `planned`, `active`, and `completed` states with remaining-day indicators and limit warnings.
+- **Data privacy:** Encrypted local storage for sensitive travel history.
+- **Backups:** Folder-based backup/restore with timestamped ZIP files and automatic daily/weekly retention pruning.
