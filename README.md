@@ -13,14 +13,18 @@ You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadora
 
 ### Visa Logger
 
-Visa Logger is a Flutter app I built to track visa limitations and visit logs while traveling, with an offline-first approach.
+Visa Logger is a Flutter app I built to manage visa limits and travel history while living nomadic, with a private offline-first architecture.
 
-- Tracks country visits with entry/exit records and inclusive day counting.
-- Calculates remaining allowance for per-visit and rolling-window visa limits.
-- Stores data locally with encrypted storage.
-- Supports local backup and restore using timestamped ZIP snapshots.
+- Country profiles with configurable visa rules: max days per visit, rolling-window allowance, and period replenish logic.
+- Visit logging with entry/exit dates, planned trips, and inclusive day counting aligned to visa rules.
+- Multiple visit views for monitoring and planning.
+- Default country travel log view.
+- Calendar view for timeline planning.
+- Day-by-day rolling breakdown view to validate allowance per date.
+- Smart trip states (`planned`, `active`, `completed`) with remaining-day indicators and limit warnings.
+- Encrypted local storage for sensitive travel data.
+- Local backup/restore to a user-selected folder with timestamped ZIP snapshots.
+- Automatic backup retention (daily + weekly pruning strategy) for long-term reliability.
 - Install invite (Firebase App Distribution): [Get Visa Logger](https://appdistribution.firebase.dev/i/fe9cbaa36337b1a2)
 
 <img src="assets/apps/visa-logger-icon.png" alt="Visa Logger app icon" width="80" />
-
-![Visa Logger homepage](assets/apps/visa-logger-homepage.jpg)
