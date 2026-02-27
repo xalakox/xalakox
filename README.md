@@ -19,7 +19,7 @@ Visa Logger is a Flutter app I built to track visa limitations and visit logs wh
 - Calculates remaining allowance for per-visit and rolling-window visa limits.
 - Stores data locally with encrypted storage.
 - Supports local backup and restore using timestamped ZIP snapshots.
-- Install invite (Firebase App Distribution): [Get Visa Logger](https://appdistribution.firebase.dev/i/ad5ab7eb9d5d24e0)
+- Install invite (Firebase App Distribution): [Get Visa Logger](https://appdistribution.firebase.dev/i/fe9cbaa36337b1a2)
 
 <img src="assets/apps/visa-logger-icon.png" alt="Visa Logger app icon" width="80" />
 
