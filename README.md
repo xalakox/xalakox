@@ -12,7 +12,7 @@ You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadora
 ## Professional Life
 
 <a href="https://www.tourconnect.ai/">
-  <img src="assets/company/tourconnect-ai-logo.webp" alt="TourConnect AI logo" width="240" />
+  <img src="assets/company/tourconnect-ai-logo-on-white.png" alt="TourConnect AI logo" width="250" />
 </a>
 
 I am a software engineer focused on building production AI software for travel operations.
