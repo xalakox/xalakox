@@ -11,19 +11,13 @@ You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadora
 
 ## Professional Life
 
-<table>
-  <tr>
-    <td width="220" valign="top">
-      <a href="https://www.tourconnect.ai/">
-        <img src="assets/company/tourconnect-ai-logo.webp" alt="TourConnect AI logo" width="200" />
-      </a>
-    </td>
-    <td valign="top">
-      I am a software engineer focused on building production AI software for travel operations.<br/><br/>
-      At <a href="https://www.tourconnect.ai/"><strong>TourConnect AI</strong></a>, I currently work on AI copilots for itineraries and bookings, helping travel teams automate busywork and deliver customization at scale.
-    </td>
-  </tr>
-</table>
+<a href="https://www.tourconnect.ai/">
+  <img src="assets/company/tourconnect-ai-logo.webp" alt="TourConnect AI logo" width="240" />
+</a>
+
+I am a software engineer focused on building production AI software for travel operations.
+
+At [**TourConnect AI**](https://www.tourconnect.ai/), I currently work on AI copilots for itineraries and bookings, helping travel teams automate busywork and deliver customization at scale.
 
 TourConnect AI is focused on AI software for DMCs and Tour Operators, including:
 
@@ -32,6 +26,26 @@ TourConnect AI is focused on AI software for DMCs and Tour Operators, including:
 - [Closeouts Automation](https://www.tourconnect.ai/closeouts-automation) for closeout and stopsell workflows.
 
 More about the company: [About TourConnect AI](https://www.tourconnect.ai/about-tour-connect-ai) and [Resources](https://www.tourconnect.ai/resources).
+
+## Open Source Work
+
+### TI2 (Tourism Information Interchange)
+
+[TI2](https://github.com/TourConnect/ti2) is an open source integration framework built for the tourism industry to standardize how systems exchange **bookings**, **content**, and **rates**.
+
+Why TI2 is relevant for the industry:
+
+- It reduces one-off point-to-point integrations by using shared standardized functions (for example: create, update, cancel).
+- It uses a plugin architecture where integration plugins connect booking/content systems, and app plugins add value on top.
+- It allows tourism businesses to connect faster across DMC, operator, OTA, and supplier ecosystems.
+- It creates a reusable community layer where new system connectors can benefit multiple companies, not just one private integration.
+- It is open source under GPL-3.0, encouraging collaboration and transparent evolution of integration standards.
+
+Examples from the plugin ecosystem:
+
+- [Tourplan plugin](https://github.com/TourConnect/ti2-tourplan)
+- [Ventrata plugin](https://github.com/TourConnect/ti2-ventrata)
+- And more connectors in the [TI2 plugin library](https://github.com/TourConnect/ti2#plugins).
 
 ## Personal Apps
 
