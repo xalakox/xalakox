@@ -13,7 +13,7 @@ You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadora
 
 I am a software engineer focused on building production AI software for travel operations.
 
-At [**TourConnect AI**](https://www.tourconnect.ai/) <a href="https://www.tourconnect.ai/"><img src="assets/company/tourconnect-ai-logo-on-white.png" alt="TourConnect AI logo" height="24" /></a>, I currently work on AI copilots for itineraries and bookings, helping travel teams automate busywork and deliver customization at scale.
+At [**TourConnect AI**](https://www.tourconnect.ai/), I currently work on AI copilots for itineraries and bookings, helping travel teams automate busywork and deliver customization at scale.
 
 TourConnect AI is focused on AI software for DMCs and Tour Operators, including:
 
