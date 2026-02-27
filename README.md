@@ -69,3 +69,57 @@ Examples from the plugin ecosystem:
 - **Trip intelligence:** `planned`, `active`, and `completed` states with remaining-day indicators and limit warnings.
 - **Data privacy:** Encrypted local storage for sensitive travel history.
 - **Backups:** Folder-based backup/restore with timestamped ZIP files and automatic daily/weekly retention pruning.
+
+### Lazy Calorie Counter
+
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <img src="assets/apps/lazy-calorie-counter-icon.png" alt="Lazy Calorie Counter app icon" width="82" />
+    </td>
+    <td valign="top">
+      <strong>Automatic food detection + macro tracking from your photo library.</strong><br/>
+      Android app that first classifies images on-device (offline) to detect food vs non-food, then analyzes food items for full nutrition insights.
+      <br/><br/>
+      <strong>Why "Lazy"?</strong> You do not need to open the app or take pictures inside the app to start counting; it reads your existing gallery photos automatically.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Status-Public%20Release%20Soon-2ea44f?style=for-the-badge" alt="Public release soon" />
+    </td>
+  </tr>
+</table>
+
+- Automatically scans your gallery and uses on-device ML to classify food/non-food without internet.
+- In automatic mode, only food candidates are sent for AI analysis, returning calories plus macros (protein, carbs, fat).
+- Integrates with Health Connect to read activity calories burned and keep nutrition/weight data in sync.
+- Dynamically adjusts daily calorie budget based on activity imported from Health Connect.
+- Includes weight gain/loss projection views based on intake trends and daily energy balance.
+
+### SplitScreenTranslate
+
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <img src="assets/apps/split-screen-translate-icon.png" alt="SplitScreenTranslate app icon" width="82" />
+    </td>
+    <td valign="top">
+      <strong>Live speech transcription and translation with a dual-pane view.</strong><br/>
+      Android app for real-time listening, translated output, and configurable speech/translation engines.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Status-Public%20Release%20Soon-2ea44f?style=for-the-badge" alt="Public release soon" />
+    </td>
+  </tr>
+</table>
+
+- Captures live speech and displays source + translated streams in split panes.
+- Supports on-device translation mode and higher-quality cloud translation mode.
+- Includes downloadable speech models, language selection, and speaker diarization options.
+- Runs with background service support for ongoing live translation sessions.
+
+### TokenGate
+
+**Status:** Under construction.
+
+TokenGate is a multi-tenant SaaS platform for managing LLM provider keys, prompt endpoints, immutable prompt versions, and token metering.
+
+- Provides API key auth, prompt runtime execution, and quota enforcement.
+- Uses envelope encryption for provider keys and secure key-hash storage for API credentials.
