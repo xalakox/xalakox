@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/**",
+        "destination": "https://github.com/xalakox",
+        "type": 301
+      }
+    ]
+  }
+}
