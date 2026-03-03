@@ -9,7 +9,7 @@ Industries I have worked with: Tourism / AI / Social Media / Data Mining and Ret
 
 You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
 
-## 💼 Where I Work
+<h2 align="right">💼 Where I Work</h2>
 
 I work full-time at [**TourConnect AI**](https://www.tourconnect.ai/), a company based in Australia and the US, building production AI software for travel operations.
 
@@ -28,7 +28,7 @@ TourConnect AI is focused on AI software for DMCs and Tour Operators, including:
 
 More about the company: [About TourConnect AI](https://www.tourconnect.ai/about-tour-connect-ai) and [Resources](https://www.tourconnect.ai/resources).
 
-## 🛠️ Open Source Work
+<h2 align="right">🛠️ Open Source Work</h2>
 
 ### 🌍 TI2 (Tourism Information Interchange) <a href="https://github.com/ti2travel"><img src="assets/company/ti2travel-avatar.jpg" alt="TI2 organization avatar" height="24" /></a>
 
@@ -48,7 +48,7 @@ Examples from the plugin ecosystem:
 - [Ventrata plugin](https://github.com/TourConnect/ti2-ventrata)
 - And more connectors in the [TI2 plugin library](https://github.com/TourConnect/ti2#plugins).
 
-## 📱 Personal Apps
+<h2 align="right">📱 Personal Apps</h2>
 
 ### 🛂 Visa Logger
 
@@ -129,7 +129,7 @@ TokenGate is a multi-tenant SaaS platform for managing LLM provider keys, prompt
 - Provides API key auth, prompt runtime execution, and quota enforcement.
 - Uses envelope encryption for provider keys and secure key-hash storage for API credentials.
 
-## 🎸 Music (Guitar)
+<h2 align="right">🎸 Music (Guitar)</h2>
 
 Outside of engineering, I play guitar and record ideas/tracks on SoundCloud.
 
