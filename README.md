@@ -9,7 +9,7 @@ Industries I have worked with: Tourism / AI / Social Media / Data Mining and Ret
 
 You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
 
-## Music (Guitar)
+## 🎸 Music (Guitar)
 
 Outside of engineering, I play guitar and record ideas/tracks on SoundCloud.
 
@@ -21,9 +21,9 @@ Recent songs:
 
 Full profile: [soundcloud.com/salvadoraceves](https://soundcloud.com/salvadoraceves)
 
-## Where I Work
+## 💼 Where I Work
 
-I work full-time at [**TourConnect AI**](https://www.tourconnect.ai/), building production AI software for travel operations.
+I work full-time at [**TourConnect AI**](https://www.tourconnect.ai/), a company based in Australia and the US, building production AI software for travel operations.
 
 My day-to-day scope includes:
 
@@ -40,9 +40,9 @@ TourConnect AI is focused on AI software for DMCs and Tour Operators, including:
 
 More about the company: [About TourConnect AI](https://www.tourconnect.ai/about-tour-connect-ai) and [Resources](https://www.tourconnect.ai/resources).
 
-## Open Source Work
+## 🛠️ Open Source Work
 
-### TI2 (Tourism Information Interchange) <a href="https://github.com/ti2travel"><img src="assets/company/ti2travel-avatar.jpg" alt="TI2 organization avatar" height="24" /></a>
+### 🌍 TI2 (Tourism Information Interchange) <a href="https://github.com/ti2travel"><img src="assets/company/ti2travel-avatar.jpg" alt="TI2 organization avatar" height="24" /></a>
 
 [TI2](https://github.com/TourConnect/ti2) is an open source integration framework built for the tourism industry to standardize how systems exchange **bookings**, **content**, and **rates**.
 
@@ -60,9 +60,9 @@ Examples from the plugin ecosystem:
 - [Ventrata plugin](https://github.com/TourConnect/ti2-ventrata)
 - And more connectors in the [TI2 plugin library](https://github.com/TourConnect/ti2#plugins).
 
-## Personal Apps
+## 📱 Personal Apps
 
-### Visa Logger
+### 🛂 Visa Logger
 
 <table>
   <tr>
@@ -87,7 +87,7 @@ Examples from the plugin ecosystem:
 - **Data privacy:** Encrypted local storage for sensitive travel history.
 - **Backups:** Folder-based backup/restore with timestamped ZIP files and automatic daily/weekly retention pruning.
 
-### Lazy Calorie Counter
+### 🍽️ Lazy Calorie Counter
 
 <table>
   <tr>
@@ -111,7 +111,7 @@ Examples from the plugin ecosystem:
 - Dynamically adjusts daily calorie budget based on activity imported from Health Connect.
 - Includes weight gain/loss projection views based on intake trends and daily energy balance.
 
-### SplitScreenTranslate
+### 🗣️ SplitScreenTranslate
 
 <table>
   <tr>
@@ -132,7 +132,7 @@ Examples from the plugin ecosystem:
 - Includes downloadable speech models, language selection, and speaker diarization options.
 - Runs with background service support for ongoing live translation sessions.
 
-### TokenGate
+### 🔐 TokenGate
 
 **Status:** Under construction.
 
