@@ -9,18 +9,6 @@ Industries I have worked with: Tourism / AI / Social Media / Data Mining and Ret
 
 You can connect with me @ linked-in [here](https://www.linkedin.com/in/salvadoraceves/)
 
-## 🎸 Music (Guitar)
-
-Outside of engineering, I play guitar and record ideas/tracks on SoundCloud.
-
-Recent songs:
-
-- [My Song 8](https://soundcloud.com/salvadoraceves/my-song-8-1)
-- [My Song 5](https://soundcloud.com/salvadoraceves/my-song-5)
-- [Tart Heart](https://soundcloud.com/salvadoraceves/tart-heart-2-wav)
-
-Full profile: [soundcloud.com/salvadoraceves](https://soundcloud.com/salvadoraceves)
-
 ## 💼 Where I Work
 
 I work full-time at [**TourConnect AI**](https://www.tourconnect.ai/), a company based in Australia and the US, building production AI software for travel operations.
@@ -140,3 +128,15 @@ TokenGate is a multi-tenant SaaS platform for managing LLM provider keys, prompt
 
 - Provides API key auth, prompt runtime execution, and quota enforcement.
 - Uses envelope encryption for provider keys and secure key-hash storage for API credentials.
+
+## 🎸 Music (Guitar)
+
+Outside of engineering, I play guitar and record ideas/tracks on SoundCloud.
+
+Recent songs:
+
+- [My Song 8](https://soundcloud.com/salvadoraceves/my-song-8-1)
+- [My Song 5](https://soundcloud.com/salvadoraceves/my-song-5)
+- [Tart Heart](https://soundcloud.com/salvadoraceves/tart-heart-2-wav)
+
+Full profile: [soundcloud.com/salvadoraceves](https://soundcloud.com/salvadoraceves)
