@@ -50,6 +50,27 @@ Examples from the plugin ecosystem:
 
 <h2 align="right">📱 Personal Apps</h2>
 
+### 🎧 Latest
+
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <img src="assets/apps/latest-icon.svg" alt="Latest app icon" width="82" />
+    </td>
+    <td valign="top">
+      <strong>A podcast player that keeps one episode from every show: the newest.</strong><br/>
+      Latest rebuilds a single newest-first queue whenever feeds refresh, so there is no backlog to manage.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Platform-Android%20%2B%20iOS-D8FF36?style=for-the-badge&logo=flutter&logoColor=151714" alt="Latest is available for Android and iOS" />
+    </td>
+  </tr>
+</table>
+
+- Find shows through Apple Podcasts search or subscribe with a direct RSS feed.
+- Download the newest unplayed episodes for offline listening and keep playback positions on the device.
+- Play in the background with lock-screen controls, chapter-aware skipping, playback speed controls, and automatic queue handoff.
+- Send playback to Google Cast devices and resume on the phone from the same position.
+
 ### 🛂 Visa Logger
 
 <table>
@@ -122,12 +143,27 @@ Examples from the plugin ecosystem:
 
 ### 🔐 TokenGate
 
-**Status:** Under construction.
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <img src="assets/apps/tokengate-icon.svg" alt="TokenGate app icon" width="82" />
+    </td>
+    <td valign="top">
+      <strong>LLM keys, prompts, and quotas in one place.</strong><br/>
+      TokenGate turns versioned prompts into API endpoints while keeping provider credentials, client limits, and usage records together.
+      <br/><br/>
+      <a href="https://tokengate.aceves.mx/">
+        <img src="https://img.shields.io/badge/Open-Public%20Beta-6546D7?style=for-the-badge" alt="Open the TokenGate public beta" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-TokenGate is a multi-tenant SaaS platform for managing LLM provider keys, prompt endpoints, immutable prompt versions, and token metering.
-
-- Provides API key auth, prompt runtime execution, and quota enforcement.
-- Uses envelope encryption for provider keys and secure key-hash storage for API credentials.
+- Store OpenAI, Anthropic, Gemini, Hugging Face, and OpenRouter keys in an envelope-encrypted organization vault.
+- Publish immutable prompt versions as text or image endpoints with project-scoped runtime keys.
+- Track requests, token usage, and estimated model cost by client and model, with monthly quota enforcement.
+- Manage projects through the web dashboard or a permission-scoped remote MCP endpoint.
+- Add end-user authorization and Google Play Integrity checks without storing prompt payloads.
 
 <h2 align="right">🎸 Music (Guitar)</h2>
 
