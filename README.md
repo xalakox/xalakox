@@ -61,6 +61,13 @@ Examples from the plugin ecosystem:
       <strong>A podcast player that keeps one episode from every show: the newest.</strong><br/>
       Latest rebuilds a single newest-first queue whenever feeds refresh, so there is no backlog to manage.
       <br/><br/>
+      <a href="https://latest.aceves.mx/">
+        <img src="https://img.shields.io/badge/Visit-Latest-D8FF36?style=for-the-badge&logoColor=151714" alt="Visit the Latest app website" />
+      </a>
+      <a href="https://play.google.com/apps/testing/mx.aceves.latest">
+        <img src="https://img.shields.io/badge/Join-Android%20Beta-151714?style=for-the-badge&logo=googleplay&logoColor=D8FF36" alt="Join the Latest Android beta" />
+      </a>
+      <br/><br/>
       <img src="https://img.shields.io/badge/Platform-Android%20%2B%20iOS-D8FF36?style=for-the-badge&logo=flutter&logoColor=151714" alt="Latest is available for Android and iOS" />
     </td>
   </tr>
