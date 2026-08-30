@@ -50,6 +50,26 @@ Examples from the plugin ecosystem:
 
 <h2 align="right">📱 Personal Apps</h2>
 
+### 🎞️ PanoRibbon
+
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <a href="https://panoribbon.aceves.mx/"><img src="https://panoribbon.aceves.mx/assets/panoribbon-icon-256.png" alt="PanoRibbon app icon" width="82" /></a>
+    </td>
+    <td valign="top">
+      <strong>Turn one wide photo into a seamless carousel or a smooth pan video.</strong><br/>
+      PanoRibbon creates 2 to 10 connected portrait slides and silent MP4 videos entirely on your phone.
+      <br/><br/>
+      <a href="https://panoribbon.aceves.mx/">panoribbon.aceves.mx</a>
+    </td>
+  </tr>
+</table>
+
+- Reframe each carousel slide independently without breaking the continuous image.
+- Preview the complete carousel before saving or sharing it.
+- Keep photos private with on-device image and video processing, no account, and no tracking.
+
 ### 🎧 Latest
 
 <table>
