@@ -1,0 +1,176 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Mockup C — Compact Dossier</title><style>
+*{box-sizing:border-box}
+body{margin:0;background:#0d1117;color:#e6edf3;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#4493f8;text-decoration:none}a:hover{text-decoration:underline}
+.topnav{display:flex;align-items:center;gap:14px;padding:14px 24px;background:#010409;border-bottom:1px solid #21262d;font-size:14px;font-weight:600}
+.topnav svg{fill:#e6edf3}
+.searchbox{margin-left:auto;border:1px solid #30363d;border-radius:6px;padding:4px 10px;color:#6e7681;font-weight:400;font-size:13px;width:280px}
+.tabs{display:flex;gap:4px;padding:0 24px;border-bottom:1px solid #21262d;background:#0d1117;font-size:14px}
+.tab{padding:10px 12px;color:#e6edf3;display:flex;gap:7px;align-items:center;border-bottom:2px solid transparent}
+.tab.active{border-bottom-color:#f78166;font-weight:600}
+.tab .count{background:rgba(110,118,129,.4);border-radius:2em;padding:0 7px;font-size:12px;font-weight:400}
+.tab svg{fill:#8b949e}
+.page{max-width:1280px;margin:0 auto;padding:24px 32px;display:flex;gap:32px;align-items:flex-start}
+.sidebar{width:296px;flex-shrink:0;font-size:14px}
+.avatar{width:296px;height:296px;border-radius:50%;border:1px solid #30363d;background:#21262d url(https://github.com/xalakox.png) center/cover}
+.sb-name{font-size:24px;font-weight:600;margin-top:16px;line-height:1.25}
+.sb-handle{font-size:20px;color:#8b949e;font-weight:300}
+.btn{display:block;text-align:center;background:#21262d;border:1px solid rgba(240,246,252,.1);border-radius:6px;padding:5px 16px;color:#c9d1d9;font-weight:500;margin:16px 0;font-size:14px}
+.sb-line{color:#8b949e;margin:10px 0}
+.sb-line b{color:#e6edf3}
+.sb-links div{margin:7px 0;color:#c9d1d9;font-size:14px}
+.dim-note{margin-top:24px;padding:10px 12px;border:1px dashed #30363d;border-radius:6px;color:#6e7681;font-size:12px;line-height:1.5}
+.main{flex:1;min-width:0}
+.readme{border:1px solid #30363d;border-radius:6px;margin-bottom:24px}
+.readme-head{padding:16px 32px 0;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#8b949e}
+.readme-head b{color:#e6edf3;font-weight:600}
+.markdown-body{padding:16px 32px 32px;font-size:16px;line-height:1.5;word-wrap:break-word}
+.markdown-body>*:first-child{margin-top:0}
+.markdown-body h1{font-size:2em;font-weight:600;margin:24px 0 16px;padding-bottom:.3em;border-bottom:1px solid #21262d}
+.markdown-body h2{font-size:1.5em;font-weight:600;margin:24px 0 16px;padding-bottom:.3em;border-bottom:1px solid #21262d}
+.markdown-body h3{font-size:1.25em;font-weight:600;margin:24px 0 16px}
+.markdown-body p{margin:0 0 16px}
+.markdown-body ul{margin:0 0 16px;padding-left:2em}
+.markdown-body li{margin:.25em 0}
+.markdown-body hr{height:.25em;padding:0;margin:24px 0;background:#30363d;border:0}
+.markdown-body table{border-collapse:collapse;margin:0 0 16px}
+.markdown-body th,.markdown-body td{border:1px solid #30363d;padding:6px 13px}
+.markdown-body tr:nth-child(2n){background:#161b22}
+.markdown-body code{background:rgba(110,118,129,.4);padding:.2em .4em;border-radius:6px;font-size:85%;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.markdown-body blockquote{border-left:.25em solid #30363d;color:#8b949e;padding:0 1em;margin:0 0 16px}
+.markdown-body details{margin:0 0 8px}
+.markdown-body summary{cursor:pointer;margin-bottom:8px}
+.markdown-body img{max-width:100%;vertical-align:middle}
+.markdown-body sub{font-size:80%;color:#8b949e}
+.markdown-body sub a{color:#4493f8}
+.appicon{border-radius:8px}
+.badge{display:inline-flex;font:700 11px/18px Verdana,'DejaVu Sans',sans-serif;border-radius:3px;overflow:hidden;vertical-align:middle;letter-spacing:.2px}
+.badge span{padding:0 6px;color:#fff}
+.badge .l{background:#30363d;color:#c9d1d9;font-weight:400}
+.chip{display:inline-block;font:600 11px/18px Verdana,sans-serif;border-radius:3px;padding:0 7px;color:#fff;vertical-align:middle}
+.pinned{opacity:.35;pointer-events:none}
+.pinned h4{font-size:16px;margin:0 0 12px;font-weight:400}
+.pin-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}
+.pin{border:1px solid #30363d;border-radius:6px;padding:16px;font-size:12px;color:#8b949e;min-height:70px}
+.pin b{color:#4493f8;font-size:14px;font-weight:600}
+.graph{border:1px solid #30363d;border-radius:6px;padding:16px;color:#8b949e;font-size:12px;height:120px}
+.designlabel{position:fixed;top:10px;right:14px;background:#1f6feb;color:#fff;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;z-index:9;box-shadow:0 2px 8px rgba(0,0,0,.5)}
+.annot{max-width:1280px;margin:0 auto;padding:16px 32px 48px;color:#8b949e;font-size:13px;line-height:1.7}
+.annot h4{color:#e6edf3;margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.5px}
+.annot code{background:#161b22;border:1px solid #21262d;padding:1px 6px;border-radius:4px;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+</style></head>
+<body>
+<div class="designlabel">Mockup C — Compact Dossier</div>
+<div class="topnav">
+  <svg height="28" viewBox="0 0 16 16" width="28"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+  xalakox
+  <div class="searchbox">Type <span style="border:1px solid #30363d;border-radius:4px;padding:0 4px">/</span> to search</div>
+</div>
+<div class="tabs">
+  <div class="tab active">Overview</div>
+  <div class="tab">Repositories <span class="count">39</span></div>
+  <div class="tab">Projects</div>
+  <div class="tab">Packages</div>
+  <div class="tab">Stars <span class="count">25</span></div>
+</div>
+<div class="page">
+  <div class="sidebar">
+    <div class="avatar"></div>
+    <div class="sb-name">Salvador Aceves Osuna</div>
+    <div class="sb-handle">xalakox</div>
+    <div class="btn">Edit profile</div>
+    <div class="sb-line"><b>35</b> followers · <b>13</b> following</div>
+    <div class="sb-links">
+      <div>🏢 @TourConnect</div>
+      <div>𝕏 @salvadoraceves</div>
+      <div>📷 xalakox</div>
+      <div>💼 in/salvadoraceves</div>
+      <div>▶️ youtube.com/xalakox</div>
+    </div>
+    <div class="dim-note">Sidebar, achievements, orgs, pinned repos and the contribution graph stay exactly as they are — only the README card changes.</div>
+  </div>
+  <div class="main">
+    <div class="readme">
+      <div class="readme-head">xalakox / <b>README</b>.md</div>
+      <div class="markdown-body">
+
+<p><b>Salvador Aceves</b> — software engineer (JavaScript / Python / DevOps), living nomadic 🌎.
+Full-time at <a href="#"><b>TourConnect AI</b></a>, building production AI for travel operations.</p>
+<p><sub><a href="#">LinkedIn</a> · <a href="#">Instagram</a> · <a href="#">YouTube</a> · <a href="#">X</a> · <a href="#">SoundCloud</a> · <a href="#">WakaTime</a></sub></p>
+<blockquote>📍 Now: booking &amp; itinerary automation at TourConnect AI · shipping privacy-first mobile apps on the side</blockquote>
+
+<h2>Work — TourConnect AI</h2>
+<p>AI software for DMCs and tour operators: <a href="#">Itinerary Assist</a>, <a href="#">Booking Automation</a>, <a href="#">Closeouts Automation</a>.</p>
+<details>
+<summary><b>Day-to-day scope</b></summary>
+<ul>
+<li>Backend APIs and integrations for itinerary and booking workflows</li>
+<li>AWS infrastructure and Kubernetes operations for deployment, scaling, and reliability</li>
+<li>Python and Node.js services for automation and data processing</li>
+<li>Frontend product work for end-to-end delivery</li>
+</ul>
+</details>
+
+<h2>Apps</h2>
+<p><sub>Privacy-first personal apps — tap to expand.</sub></p>
+<details open>
+<summary><img src="../assets/apps/latest-icon.svg" width="20" class="appicon"> <b>Latest</b> — a podcast player that keeps one episode per show: the newest &nbsp;<span class="chip" style="background:#238636">live</span></summary>
+
+<ul>
+<li>Rebuilds a single newest-first queue whenever feeds refresh — no backlog to manage</li>
+<li>Apple Podcasts search or direct RSS, offline downloads, lock-screen + Google Cast playback</li>
+</ul>
+<p><a href="#">latest.aceves.mx</a></p>
+
+</details>
+<details>
+<summary><img src="https://panoribbon.aceves.mx/assets/panoribbon-icon-256.png" width="20" class="appicon"> <b>PanoRibbon</b> — one wide photo → seamless carousel or pan video, on-device &nbsp;<span class="chip" style="background:#238636">live</span></summary>
+<p><a href="#">panoribbon.aceves.mx</a></p>
+</details>
+<details>
+<summary><img src="../assets/apps/visa-logger-icon.png" width="20" class="appicon"> <b>Visa Logger</b> — private visa planner &amp; identity wallet &nbsp;<span class="chip" style="background:#238636">live</span></summary>
+<p><a href="#">visa.aceves.mx</a></p>
+</details>
+<details>
+<summary><img src="../assets/apps/tokengate-icon.svg" width="20" class="appicon"> <b>TokenGate</b> — LLM keys, prompts, and quotas in one place &nbsp;<span class="chip" style="background:#6546D7">public beta</span></summary>
+<p><a href="#">tokengate.aceves.mx</a></p>
+</details>
+<details>
+<summary><img src="../assets/apps/lazy-calorie-counter-icon.png" width="20" class="appicon"> <b>Lazy Calorie Counter</b> — macro tracking straight from your photo library &nbsp;<span class="chip" style="background:#6e7681">soon</span></summary>
+<p>Public release soon.</p>
+</details>
+<details>
+<summary><img src="../assets/apps/split-screen-translate-icon.png" width="20" class="appicon"> <b>SplitScreenTranslate</b> — live speech transcription + translation, dual-pane &nbsp;<span class="chip" style="background:#6e7681">soon</span></summary>
+<p>Public release soon.</p>
+</details>
+
+<h2>Open source — TI2</h2>
+<p><img src="../assets/company/ti2travel-avatar.jpg" width="20" class="appicon"> <a href="#"><b>Tourism Information Interchange</b></a> — open framework (GPL-3.0) standardizing
+bookings / content / rates exchange for the tourism industry. <a href="#">Tourplan</a> · <a href="#">Ventrata</a> · <a href="#">plugins</a></p>
+
+<h2>Music</h2>
+<p>Guitar on <a href="#">SoundCloud</a> — <a href="#">My Song 8</a> · <a href="#">My Song 5</a> · <a href="#">Tart Heart</a> 🎸</p>
+
+      </div>
+    </div>
+    <div class="pinned">
+      <h4>Pinned</h4>
+      <div class="pin-grid">
+        <div class="pin"><b>TourConnect/secrets2env</b> · Public<br><br>An executable dependency that would retrieve secrets from AWS…</div>
+        <div class="pin"><b>ti2travel/ti2</b> · Public<br><br>Tourism Industry Interchange</div>
+      </div>
+      <div class="graph">3,193 contributions in the last year — (contribution graph, unchanged)</div>
+    </div>
+  </div>
+</div>
+<div class="annot">
+
+<h4>Mockup C — “Compact Dossier”: how it maps to real markdown</h4>
+Every app is a native <code>&lt;details&gt;/&lt;summary&gt;</code> accordion — icons and status chips render
+inside summaries on GitHub. Nothing is deleted from today’s content: the feature bullets simply live
+inside the collapsed sections (first one shown expanded here for illustration). The “Now” strip is a
+plain <code>blockquote</code>. Shortest default view of the three while keeping all detail one click away.
+
+</div>
+</body></html>
