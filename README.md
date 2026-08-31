@@ -99,8 +99,8 @@ Examples from the plugin ecosystem:
       <img src="assets/apps/visa-logger-icon.png" alt="Visa Logger app icon" width="82" />
     </td>
     <td valign="top">
-      <strong>Private visa planning assistant built with Flutter.</strong><br/>
-      Tracks country limits, visit timelines, and remaining allowance while keeping data local and encrypted.
+      <strong>Private visa planner and identity wallet built with Flutter.</strong><br/>
+      Tracks country limits, visit timelines, remaining allowance, and travel documents without sending app records to a developer-run server.
       <br/><br/>
       <a href="https://visa.aceves.mx/">visa.aceves.mx</a>
     </td>
@@ -111,8 +111,9 @@ Examples from the plugin ecosystem:
 - **Visit tracking:** Log entry/exit dates, planned trips, and inclusive day counting aligned with visa compliance.
 - **Views:** Default travel log, calendar timeline, and day-by-day rolling breakdown validation.
 - **Trip intelligence:** `planned`, `active`, and `completed` states with remaining-day indicators and limit warnings.
-- **Data privacy:** Encrypted local storage for sensitive travel history.
-- **Backups:** Folder-based backup/restore with timestamped ZIP files and automatic daily/weekly retention pruning.
+- **Identity wallet:** Store passports, resident cards, and visas with dates, photographs, scans, supporting files, and an archive for older documents.
+- **Data privacy:** Structured records are encrypted locally; attached files stay in the app's private storage.
+- **Backups:** Create and restore timestamped ZIPs containing travel records, identity documents, and their attachments in a folder you choose, with automatic daily/weekly retention pruning.
 
 ### 🍽️ Lazy Calorie Counter
 
