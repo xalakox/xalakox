@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="18 18 72 72">
+  <!-- Drawn on the 108-unit Android adaptive icon canvas; the viewBox is the 72-unit visible area. -->
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="18%" r="75%">
+      <stop offset="0" stop-color="#263b35"/>
+      <stop offset="1" stop-color="#080b0b"/>
+    </radialGradient>
+  </defs>
+  <rect x="18" y="18" width="72" height="72" fill="url(#glow)"/>
+  <!-- Scaled toward the centre so the front bubble's tail stays inside the 66-unit safe circle. -->
+  <g transform="translate(54 54) scale(0.92) translate(-54 -54)">
+    <!-- The friend's bubble, notched to leave a gap around the front bubble. -->
+    <path fill="#f2efe6" d="M57 28H71A11 11 0 0 1 82 39V44A11 11 0 0 1 71 55H70.27A15.4 15.4 0 0 0 55 41.6H46V39A11 11 0 0 1 57 28Z"/>
+    <path fill="#f2efe6" d="M71 50H79L81.6 60Q82 62 80.4 60.8Z"/>
+    <path fill="#f4b942" fill-rule="evenodd" d="M39 44H55A13 13 0 0 1 68 57V62A13 13 0 0 1 55 75H39A13 13 0 0 1 26 62V57A13 13 0 0 1 39 44ZM41.3 52.6L41.3 66.4Q41.3 69 43.57 67.73L56.03 60.77Q58.3 59.5 56.03 58.23L43.57 51.27Q41.3 50 41.3 52.6Z"/>
+    <path fill="#f4b942" d="M30 68H41L33.6 79Q32.4 80.8 32 78.7Z"/>
+  </g>
+</svg>
